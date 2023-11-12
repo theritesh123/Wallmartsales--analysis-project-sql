@@ -92,5 +92,32 @@ The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition.T
 15.find the total sales for each branch, broken down by customer type,
        for invoices with a rating greater than 3:*
 
+# Code:
+For the rest of the code chec the 
+-- Create database
+CREATE DATABASE IF NOT EXISTS walmartSales;
+
+-- Create table
+CREATE TABLE IF NOT EXISTS wmsales(
+	invoice_id VARCHAR(35) NOT NULL PRIMARY KEY,
+    branch VARCHAR(15) NOT NULL,
+    city VARCHAR(35) NOT NULL,
+    customer_type VARCHAR(30) NOT NULL,
+    gender VARCHAR(11) NOT NULL,
+    product_line VARCHAR(200) NOT NULL,
+    unit_price DECIMAL(11,2) NOT NULL,
+    quantity INT NOT NULL,
+    VAT FLOAT(7,4) NOT NULL,
+    total DECIMAL(13, 4) NOT NULL,
+    date DATETIME NOT NULL,
+    time TIME NOT NULL,
+    payment VARCHAR(20) NOT NULL,
+    cogs DECIMAL(10,2) NOT NULL,
+    gross_margin_pct FLOAT(11,9),
+    gross_income DECIMAL(10, 2),
+    rating FLOAT(2, 1)
+);
+
+
 
              
