@@ -1,5 +1,5 @@
 # Wallmartsales--analysis-project-sql          
-ABOUT
+#ABOUT
 
 
 This project aims to explore the walmart sales data to understand sales trends of different products.
