@@ -136,7 +136,30 @@ CREATE TABLE IF NOT EXISTS wmsales(
     
     rating FLOAT(2, 1)
 );
+CREATE DATABASE IF NOT EXISTS SalesDataWalmart;
+use SalesDataWalmart;
+SHOW TABLES FROM SalesDataWalmart;
+DROP TABLES wmsaleses;
 
+CREATE TABLE IF NOT EXISTS WMsales(
+invoice_id VARCHAR(35) NOT NULL PRIMARY KEY,
+branch VARCHAR(15) NOT NULL,
+city VARCHAR(35) NOT NULL,
+customer_type VARCHAR(35) NOT NULL,
+gender VARCHAR(11) NOT NULL,
+product_line VARCHAR(200) NOT NULL,
+unit_price Decimal(11,2) NOT NULL,
+quantity INT NOT NULL,
+VAT FLOAT(7,4) NOT NULL,
+total DECIMAL(13,4) NOT NULL,
+date DATETIME NOT NULL,
+time TIME NOT NULL,
+payment_method VARCHAR(20) NOT NULL,
+cogs DECIMAL(11,2) NOT NULL,
+gross_margin_perct FLOAT(10,9),
+gross_income DECIMAL(12,4) NOT NULL,
+rating FLOAT(2,1)
+);
 
 
              
