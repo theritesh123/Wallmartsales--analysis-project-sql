@@ -47,3 +47,9 @@ The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition.T
       |gross_income  |Gross Income                     |DECIMAL(10, 2)|
       
       |rating        |Rating                           |FLOAT(2, 1)   |
+
+      # Approach used
+      1.Built a database named Salesdatawalmart
+      2.Created table named wmsales and inserted the data.
+      3.Selected columns with null values in them. There are no null values in our database as in creating the tables, 
+        we set NOT NULL for each field, hence null values are filtered out.
