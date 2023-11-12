@@ -12,23 +12,38 @@ The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition.T
       | column      | |Description                 | Data type    |
       |-------------------------------------------------------------|
       |invoice_id    |Invoice of the sales made       |VARCHAR(35)  |
+      
       |branch        |Branch at which sales were made |VARCHAR(15)  |
+      
       |city          |The location of the branch      |VARCHAR(35)  |
+      
       |customer_type |The type of the customer        |VARCHAR(30)  |
+      
       |gender        |Gender of the customer making   |VARCHAR(11)  |
                       purchase
       |product_line  |Product line of the product sold|VARCHAR(200) |
+      
       |unit_price    |The price of each product       |DECIMAL(11, 2)|
+      
       | quantity     |The amount of the product sold  |INT           |
+      
       |VAT           |The amount of tax on the purchase|FLOAT(7, 4)  |
+      
       |total         |The total cost of the purchase   |DECIMAL(13,4)|
+      
       |date          |The date on which the purchase   |DATE         |
                       was made
+                      
       |time          |The time at which the purchase   |TIMESTAMP    |
                       was made
+                      
       |payment_method| Medium of the total amount paid |varchar(20)  |
+      
       |cogs          |Cost Of Goods sold               |DECIMAL(10, 2)|
+      
       |gross_margin_ |Gross margin percentage          |FLOAT(11, 9)  |
       percentage
+      
       |gross_income  |Gross Income                     |DECIMAL(10, 2)|
+      
       |rating        |Rating                           |FLOAT(2, 1)   |
