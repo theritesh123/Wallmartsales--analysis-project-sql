@@ -57,43 +57,44 @@ The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition.T
              we set NOT NULL for each field, hence null values are filtered out.
 
 # Business  Question (Queries) to  Answer:
-1. ADD A NEW COLUMN NAMED TIME_0F_DAY  TO GIVE INSIGHT OF SALES IN THE MORNING,AFTERNOON AND EVENING.
-   THIS WILL ANSWER THE QUESTION ON WHICH PART OF THE DAY MOST SALES ARE MADE.
+1. Add a new C0lumn named TIME_0F_DAY  to give insight of sales in the morning,afternoon and evening.
+   This will answer the question on which part of the day most sales are made.
    
-2.ADD A NEW COLUMN NAMED DAY_NAME THAT CONTAINS THE EXTRACTED DAYS OF THE WEEK ON WHICH THE GIVEN TRANSACTION TOOK PLACE.
-   THIS WILL HELP ANSWER THE QUESTION ON WHICH WEEK OF THE DAY EACH BRANCH IS BUSIEST.
+2.Add a new column named DAY_NAME that contains the extracted days of the week on  which the  given transaction took place.
+   This  will help answer the question on which week of the day each branch is busiest.
    
-3.ADD A NEW COLUMN NAMED MONTH_NAME THAT CONTAINS THE EXTRACTED MONTH OF THE YEAR ON WHICH THE GIVEN TRANSACTION TOOK PLACE.
-     IT WILL HELP DETERMINE WHICH MONTH OF THE YEAR HAS THE MOST SALES AND PROFIt
+3.Add a new column named MONTH_NAME that contains the extracted month of the year on which the given transaction took place.
+     it  will help deermine which month of the year has the most sales and profit
      
-4.HOW MANY PRODUCT LINE WALLMART HAVE?
+4.How many product line wallmart have?
 
-5.WHAT IS THE MOST COMMON PAYMENT METHOD?
+5.What is the most common payment method?
 
-6.WHAT IS THE TOTAL REVENUE BY MONTH?
+6.What is the total revenue by month?
 
-7.WHAT IS THE TOTAL REVENUE BY MONTH?
+7.What is the total revenue by month?
 
-8.WHAT IS THE CITY WITH THE LARGEST REVENUE?
+8.What is the city with the largest revenue?
 
-9.WHAT PRODUCT LINE HAD THE LARGEST VAT?
+9.What product line had the largest VAT?
 
-10.WHICH BRANCH SOLD MORE PRODUCTS THAN AVERAGE PRODUCT SOLD?
+10.Which Branch Sold more product than average product sold?
 
-11.WHAT IS THE MOST COMMON PRODUCT LINE BY GENDER?
+11.What is the most common product line by gender?
 
-12.WHAT IS THE AVERAGE RATING OF EACH PRODUCT LINE?
+12.What is the average rating of each product line?
 
-13.WHAT IS THE GENDER DISTRIBUTION PER BRANCH?
+13.What is the gender distribution per branch?
 
-14.find the average gross income and total sales for each product line,
+14.Find the average gross income and total sales for each product line,
          only considering invoices with a rating higher than 4.
          
-15.find the total sales for each branch, broken down by customer type,
+15.Find the total sales for each branch, broken down by customer type,
        for invoices with a rating greater than 3:*
 
-# Code:
-For the rest of the code chec the 
+ 
+ # Code:
+For the rest of the code checK the 
 -- Create database
 CREATE DATABASE IF NOT EXISTS walmartSales;
 
