@@ -1,5 +1,7 @@
 # Wallmartsales--analysis-project-sql
+
 #About
+
 This project aims to explore the walmart sales data to understand sales trends of different products.
 The aims is to study how sales strategies can be improved and optimised.The dataset was obtained from the kaggle walmart sales forecasting competition
 # Purpose of the project
